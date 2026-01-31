@@ -1,0 +1,38 @@
+header {
+    padding: 20px 0px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.btn {
+    padding: 12px 24px;
+    background-color: #FF2B85;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
