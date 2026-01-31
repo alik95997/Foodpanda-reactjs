@@ -1,0 +1,51 @@
+.vacancy {
+  padding: 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.vacancy h1 {
+  color: #FF2B85;
+
+}
+
+.vacancy-cards {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.vacancy-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  padding: 12px 15px;
+  border: 1px solid #FF2B85;
+  border-radius: 12px;
+  position: relative;
+}
+
+i {
+  color: #FF2B85;
+}
+
+.vacancy-card .abc {
+  align-self: flex-end;
+  /* position: absolute; */
+  /* right: 10px; */
+  color: #FF2B85;
+  /* top: 80px; */
+}
+
+.vacancy-card-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  height: 250px;
+
+}
