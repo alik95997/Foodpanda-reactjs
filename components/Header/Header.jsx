@@ -1,5 +1,8 @@
 import React from "react";
 import "./header.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   return (
     <header>
@@ -28,9 +31,9 @@ const Header = () => {
       </nav>
 
       <div>
-        <button class="btn">
+        <button className="btn">
           Saved Jobs
-          <i class="fa-regular fa-star"></i>
+          <FontAwesomeIcon icon={faStar} />
         </button>
       </div>
     </header>

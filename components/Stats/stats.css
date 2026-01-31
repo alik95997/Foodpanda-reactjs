@@ -1,0 +1,20 @@
+.stats {
+  padding: 20px;
+  background-color: rgb(255, 178, 187);
+}
+
+.stats h1 {
+  text-align: right;
+}
+
+.stats-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-content .cards {
+  display: flex;
+  justify-content: space-between;
+
+}

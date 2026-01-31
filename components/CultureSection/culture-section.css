@@ -1,0 +1,28 @@
+.cultureSection {
+    display: flex;
+    padding: 2.5rem;
+    line-height: 1.5;
+    background-color: #EFF2F4;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.cultureSection img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+
+.cultureSection-img {
+    width: 50%;
+}
+
+
+.CultureSection-Text h1 {
+    text-align: start;
+    color: #FF2B85;
+    font-size: 41px;
+    line-height: 1.5;
+}
