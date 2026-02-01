@@ -20,63 +20,6 @@ section {
 
 
 
-.cards {
-  padding: 0px 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: start;
-  gap: 40px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card:nth-child(1) {
-  transform: translateY(0px);
-}
-
-.card:nth-child(2) {
-  transform: translateY(50px);
-}
-
-.card:nth-child(3) {
-  transform: translateY(100px);
-}
-
-.card:nth-child(4) {
-  transform: translateY(150px);
-}
-
-.card h1 {
-  font-size: 3rem;
-
-}
-
-.card p {
-  font-size: 1.3rem;
-}
-
-.card {
-  width: 180px;
-  height: 200px;
-  border-radius: 20px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 4px (rgba(255, 255, 255, 0.6));
-  text-align: center;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-
-}
-
 
 
 
