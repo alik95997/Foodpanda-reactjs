@@ -1,13 +1,14 @@
 import React from "react";
 import "./header.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import FoodpandaLogo from "../../assets/logo.svg";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import FindMoreButton from "../FindMoreButton/FindMoreButton";
 const Header = () => {
   return (
     <header>
       <div>
-        <img src="./assets/foodpanda_logo_2023.svg" alt="" />
+        <img src={FoodpandaLogo} alt="" />
       </div>
 
       <nav>
@@ -31,10 +32,10 @@ const Header = () => {
       </nav>
 
       <div>
-        <button className="btn">
+        <span className="saved-job">
           Saved Jobs
           <FontAwesomeIcon icon={faStar} />
-        </button>
+        </span>
       </div>
     </header>
   );

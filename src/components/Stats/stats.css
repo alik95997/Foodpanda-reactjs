@@ -5,6 +5,7 @@
 
 .stats h1 {
   text-align: right;
+
 }
 
 .stats-content {
@@ -27,26 +28,34 @@
   gap: 40px;
 }
 
+.outerLine {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #FF2B85;
+  font-weight: bold;
 }
 
-.card:nth-child(1) {
+.outerLine:nth-child(1) {
   transform: translateY(0px);
 }
 
-.card:nth-child(2) {
+.outerLine:nth-child(2) {
   transform: translateY(50px);
 }
 
-.card:nth-child(3) {
+.outerLine:nth-child(3) {
   transform: translateY(100px);
 }
 
-.card:nth-child(4) {
+.outerLine:nth-child(4) {
   transform: translateY(150px);
 }
 

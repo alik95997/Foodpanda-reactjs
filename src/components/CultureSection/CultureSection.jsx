@@ -1,5 +1,6 @@
 import React from "react";
-import "./culture-section.css"
+import "./culture-section.css";
+import FindMoreButton from "../FindMoreButton/FindMoreButton";
 const CultureSection = () => {
   return (
     <section className="cultureSection">
@@ -17,7 +18,8 @@ const CultureSection = () => {
           able to exchange and bring to the table the best practices (and food!)
           from each corner of the world.
         </p>
-        <button className="btn">Find Out More</button>
+          <FindMoreButton />
+       
       </div>
     </section>
   );

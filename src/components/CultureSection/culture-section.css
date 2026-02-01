@@ -7,6 +7,16 @@
     width: 100%;
 }
 
+.CultureSection-Text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+
+    flex: 1;
+    padding: 20px;
+}
+
 .cultureSection img {
     max-width: 100%;
     height: auto;
@@ -16,7 +26,8 @@
 
 
 .cultureSection-img {
-    width: 50%;
+    width: 100%;
+    flex: 1;
 }
 
 
@@ -25,4 +36,5 @@
     color: #FF2B85;
     font-size: 41px;
     line-height: 1.5;
+
 }

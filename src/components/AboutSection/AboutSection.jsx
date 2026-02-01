@@ -1,5 +1,6 @@
 import React from "react";
 import "./about-section.css";
+import FindMoreButton from "../FindMoreButton/FindMoreButton";
 const AboutSection = () => {
   return (
     <section className="aboutSection">
@@ -15,9 +16,9 @@ const AboutSection = () => {
           foodpanda is just one tap away, getting everything you need into your
           hands quickly and conveniently!
         </p>
-        <button className="btn">Find Out More</button>
+        <FindMoreButton />
       </div>
-      <div>
+      <div className="about-section-imgCont">
         <img
           src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481181/0f1cd41f-b5a4-4fa7-b963-a5706b26c90b/0.0.0/img/0bc488e5-8713-4a1f-9d0f-08dc1849ff6f"
           alt=""

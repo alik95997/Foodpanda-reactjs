@@ -1,0 +1,27 @@
+.fmb {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.fmb img {
+    width: 80px;
+    position: relative;
+    top: 6px;
+    left: 6px;
+}
+
+.fmb button {
+    padding: 12px 60px;
+    border: none;
+    background-color: #FF2B85;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(0.98);
+    }
+}

@@ -5,6 +5,7 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .posts {
   display: grid;
   grid-template-columns: 25% 25% 25%;
@@ -18,16 +19,19 @@
   gap: 10px;
   height: 500px;
   border-radius: 25px;
+  border: 1px solid rgb(192, 191, 191);
 }
 
 .post-img-container {
   width: 100%;
 }
 
+
 .post-img-container img {
   position: relative;
   filter: brightness(50%);
   width: 100%;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .post-img-container p {
@@ -60,5 +64,11 @@
   align-self: flex-end;
   padding: 12px 24px;
   border: none;
+  border-radius: 12px;
 
+  &:hover {
+    background-color: #FF2B85;
+    cursor: pointer;
+    color: white;
+  }
 }

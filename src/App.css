@@ -5,9 +5,7 @@
   font-family: sans-serif;
 }
 
-section {
-  margin: 20px 0px;
-}
+
 
 .details {
   padding: 20px;
@@ -17,27 +15,10 @@ section {
   align-items: center;
   gap: 20px;
 }
-
-
-
-
-
-
-.foodpanda-icon {
-  width: 80px;
-  height: 80px;
-  border: 1px solid #FF2B85;
-  border-radius: 50%;
-  position: relative;
-  bottom: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.btn {
+    padding: 12px 24px;
+    background-color: #FF2B85;
+    color: white;
+    border: none;
+    border-radius: 25px;
 }
-
-.foodpanda-icon img {
-  width: 60px;
-}
-
-
-

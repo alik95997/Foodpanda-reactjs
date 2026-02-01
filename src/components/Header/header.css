@@ -3,6 +3,7 @@ header {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 header nav {
@@ -16,8 +17,8 @@ header nav ul {
 }
 
 header nav ul li a {
+    font-weight: bold;
     text-decoration: none;
-    font-weight: 500;
     color: black;
 }
 
@@ -29,10 +30,7 @@ nav {
 
 
 
-.btn {
-    padding: 12px 24px;
-    background-color: #FF2B85;
-    color: white;
-    border: none;
-    border-radius: 25px;
+.saved-job{
+    display: flex;
+    color: #ff2b90;
 }
