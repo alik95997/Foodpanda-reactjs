@@ -8,6 +8,8 @@ import AboutSection from "../components/AboutSection/AboutSection";
 import CultureSection from "../components/CultureSection/CultureSection";
 import Stats from "../components/Stats/Stats";
 import Vacancy from "../components/Vacancy/Vacancy";
+import PostSection from "../components/PostSection/PostSection";
+import Footer from "../components/Footer/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -24,106 +26,10 @@ function App() {
         <Stats />
        <Vacancy />
        
-        <section className="post-section">
-          <h1>Read more about foodpanda</h1>
-          <div className="posts">
-            <div className="post">
-              <div className="post-img-container">
-                <p>Friday, 12 july 2024</p>
-                <img
-                  src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481181/0f1cd41f-b5a4-4fa7-b963-a5706b26c90b/0.0.0/img/__gtrPYlMEWeZAjcoAJNhA/APAC_pandapurpose-2023-cover-image-for-Newsroom-LinkedIn_FGD-190757_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="post-lower-container">
-                <div className="post-lower-container-text">
-                  <p>Company Update</p>
-                  <p>
-                    pandapurpose 2023: Delivering with purpose to local
-                    communities across
-                  </p>
-                </div>
-                <button className="">Read more</button>
-              </div>
-            </div>
-            <div className="post">
-              <div className="post-img-container">
-                <p>Friday, 12 july 2024</p>
-                <img
-                  src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481181/0f1cd41f-b5a4-4fa7-b963-a5706b26c90b/0.0.0/img/__gtrPYlMEWeZAjcoAJNhA/APAC_pandapurpose-2023-cover-image-for-Newsroom-LinkedIn_FGD-190757_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="post-lower-container">
-                <div className="post-lower-container-text">
-                  <p>Company Update</p>
-                  <p>
-                    pandapurpose 2023: Delivering with purpose to local
-                    communities across
-                  </p>
-                </div>
-                <button className="">Read more</button>
-              </div>
-            </div>
-            <div className="post">
-              <div className="post-img-container">
-                <p>Friday, 12 july 2024</p>
-                <img
-                  src="https://attraxcdnprod1-freshed3dgayb7c3.z01.azurefd.net/1481181/0f1cd41f-b5a4-4fa7-b963-a5706b26c90b/0.0.0/img/__gtrPYlMEWeZAjcoAJNhA/APAC_pandapurpose-2023-cover-image-for-Newsroom-LinkedIn_FGD-190757_%E5%B7%A5%E4%BD%9C%E5%8D%80%E5%9F%9F-1.jpg"
-                  alt=""
-                />
-              </div>
-              <div className="post-lower-container">
-                <div className="post-lower-container-text">
-                  <p>Company Update</p>
-                  <p>
-                    pandapurpose 2023: Delivering with purpose to local
-                    communities across
-                  </p>
-                </div>
-                <button className="">Read more</button>
-              </div>
-            </div>
-          </div>
-        </section>
+        <PostSection />
       </main>
 
-      <footer>
-        <div className="upper-footer">
-          <div>
-            <ul>
-              <li>About Us</li>
-              <li>Locations</li>
-              <li>Teams</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Join Us</li>
-              <li>Job Opening</li>
-              <li>Our Values</li>
-            </ul>
-          </div>
-          <div>
-            <ul>
-              <li>Privacy Policies</li>
-              <li>Cookies and Similar Technologies Policy</li>
-            </ul>
-          </div>
-          <div>
-            <div className="search-wrapper">
-              <input type="text" placeholder="Start your job search here" />
-              <i className="fa-solid fa-magnifying-glass"></i>
-            </div>
-          </div>
-        </div>
-        <div className="divider"></div>
-        <div className="down">
-          <p>
-            Connect with us: <i className="fa-brands fa-linkedin"></i>
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </>
   );
 }

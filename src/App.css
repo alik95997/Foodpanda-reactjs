@@ -78,13 +78,7 @@ section {
 }
 
 
-.post-section {
-  border-radius: 25px;
-  padding: 12px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 
 .foodpanda-icon {
   width: 80px;
@@ -102,81 +96,5 @@ section {
   width: 60px;
 }
 
-.posts {
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
-  justify-content: center;
-  gap: 20px;
-}
 
-.post {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 500px;
-  border-radius: 25px;
-}
 
-.post-img-container {
-  width: 100%;
-}
-
-.post-img-container img {
-  position: relative;
-  filter: brightness(50%);
-  width: 100%;
-}
-
-.post-img-container p {
-  position: absolute;
-  z-index: 1;
-  color: white;
-  padding: 12px;
-}
-
-.post-lower-container {
-  padding: 12px;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.post-lower-container-text {
-  flex-grow: 1;
-}
-
-.post-lower-container-text :nth-child(1) {
-  color: #FF2B85;
-}
-
-.post-lower-container-text :nth-child(2) {
-  font-size: 1.5rem;
-}
-
-.post-lower-container button {
-  align-self: flex-end;
-  padding: 12px 24px;
-  border: none;
-
-}
-
-footer {
-  background-color: #000000;
-  color: white;
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-footer ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.upper-footer {
-  display: flex;
-  justify-content: space-between;
-}
