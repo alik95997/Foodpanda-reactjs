@@ -2,19 +2,26 @@
     background-color: #FFB2BB;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.heroWrapper {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .hero-left {
-    width: 50%;
+    flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
 
-    padding: 0 20px;
+
     font-size: 1.5rem;
     line-height: 1.5;
 
@@ -22,7 +29,7 @@
 }
 
 .hero-img-container {
-    width: 50%;
+    flex: 1;
 }
 
 .hero-img-container img {
@@ -46,13 +53,12 @@
     outline: none;
 }
 
-.search-wrapper i {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.searchWrapperIcon {
+
     background-color: #FF2B85;
-    width: 40px;
-    height: 40px;
-    border-radius: 100%;
+
+    padding: 8px;
+    clip-path: circle(50%);
     color: white;
 }

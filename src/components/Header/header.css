@@ -1,18 +1,37 @@
 header {
-    padding: 20px 0px;
+    padding: 15px 0px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+
+}
+
+.headerWrapper {
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
+.header-logo-container {}
+
 header nav {
+
     display: flex;
 }
 
 header nav ul {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    justify-content: space-between;
+
     list-style-type: none;
 }
 
@@ -30,7 +49,7 @@ nav {
 
 
 
-.saved-job{
+.saved-job {
     display: flex;
     color: #ff2b90;
 }
