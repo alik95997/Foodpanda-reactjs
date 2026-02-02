@@ -5,10 +5,14 @@
   flex-direction: column;
   gap: 20px;
 }
-
+.post-section-wrapper{
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+}
 .posts {
-  display: grid;
-  grid-template-columns: 25% 25% 25%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   gap: 20px;
 }
