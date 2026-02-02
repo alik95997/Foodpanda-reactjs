@@ -1,30 +1,39 @@
 .stats {
-  padding: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: rgb(255, 178, 187);
 }
 
-.stats h1 {
-  text-align: right;
+.statsWrapper {
+  position: relative;
+  /* Keeps absolute children contained here */
+  width: 100%;
+  max-width: 1200px;
+  padding: 6rem 0;
+  /* Increased top padding to give the H1 room */
+}
 
+.statsWrapper>h1 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin: 0;
 }
 
 .stats-content {
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
-.stats-content .cards {
-  display: flex;
-  justify-content: space-between;
-
-}
-
 .cards {
-  padding: 0px 10px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: start;
+  padding-bottom: 160px;
+  /* Prevents overflow from translateY */
   gap: 40px;
 }
 
@@ -35,18 +44,22 @@
 }
 
 .card {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   color: #FF2B85;
-  font-weight: bold;
+  background-color: white;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.6);
+  /* Fixed Syntax */
+  gap: 10px;
 }
 
-.outerLine:nth-child(1) {
-  transform: translateY(0px);
-}
-
+/* Staggered Effect */
 .outerLine:nth-child(2) {
   transform: translateY(50px);
 }
@@ -61,26 +74,18 @@
 
 .card h1 {
   font-size: 3rem;
-
+  margin: 0;
 }
 
 .card p {
   font-size: 1.3rem;
+  margin: 0;
 }
 
-.card {
-  width: 180px;
-  height: 200px;
-  border-radius: 20px;
-  border: 2px solid #fff;
-  box-shadow: 0 0 0 4px (rgba(255, 255, 255, 0.6));
-  text-align: center;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  padding: 10px;
-
+.stats-img-container img {
+  position: absolute;
+  right: -50px;
+  bottom: 0px;
+  /* Added bottom alignment */
+  z-index: 0;
 }

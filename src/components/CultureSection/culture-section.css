@@ -1,10 +1,18 @@
 .cultureSection {
     display: flex;
-    padding: 2.5rem;
-    line-height: 1.5;
+    justify-content: center;
     background-color: #EFF2F4;
-    justify-content: space-around;
     width: 100%;
+}
+
+.cultureSectionWrapper {
+    padding: 2.5rem 0px;
+    width: 100%;
+    max-width: 90%;
+    display: flex;
+    line-height: 1.5;
+    justify-content: space-between;
+
 }
 
 .CultureSection-Text {

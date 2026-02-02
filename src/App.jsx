@@ -9,6 +9,7 @@ import Stats from "./components/Stats/Stats";
 import Vacancy from "./components/Vacancy/Vacancy";
 import PostSection from "./components/PostSection/PostSection";
 import Footer from "./components/Footer/Footer";
+import Details from "./components/Details/Details";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,7 +19,7 @@ function App() {
       <Header />
       <main>
         <HeroSection />
-
+        <Details />
         <AboutSection />
         <CultureSection />
 

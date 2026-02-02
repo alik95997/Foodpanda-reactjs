@@ -4,6 +4,8 @@ import FindMoreButton from "../FindMoreButton/FindMoreButton";
 const AboutSection = () => {
   return (
     <section className="aboutSection">
+      <div className="aboutSectionWrapper">
+
       <div className="about-content">
         <h1>We love what we do</h1>
         <p>
@@ -24,6 +26,8 @@ const AboutSection = () => {
           alt=""
         />
       </div>
+      </div>
+
     </section>
   );
 };

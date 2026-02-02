@@ -7,14 +7,7 @@
 
 
 
-.details {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
+
 .btn {
     padding: 12px 24px;
     background-color: #FF2B85;
